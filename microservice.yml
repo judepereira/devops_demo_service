@@ -1,0 +1,15 @@
+omg: 1
+info:
+  version: 1.0.1
+  title: hello world
+  description: hello world
+lifecycle:
+  startup:
+    command: ['python', 'app.py']
+actions:
+  hello:
+    http:
+      port: 8000
+      path: /
+      method: get
+
