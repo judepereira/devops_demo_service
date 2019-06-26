@@ -13,3 +13,7 @@ actions:
       path: /
       method: get
 
+health:
+  http:
+    port: 8000
+    path: /
